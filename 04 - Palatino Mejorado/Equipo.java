@@ -41,8 +41,8 @@ public class Equipo
 
     public String toString()
     {
-        return this.nombre + "\n" + 
+        return "\n" + this.nombre + "\n" + 
             "Puesto: " + this.puesto + "\n" + 
-            "Goles: " + this.goles;
+            "Goles: " + this.goles + "\n";
     }
 }
